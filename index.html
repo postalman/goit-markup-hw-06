@@ -467,7 +467,12 @@
             <ul class="sub-form">
               <li class="e-mail-form">
                 <label for="signup-mail"></label>
-                <input name="email" type="email" class="mail-form" placeholder="E-mail">
+                <input
+                  name="email"
+                  type="email"
+                  class="mail-form"
+                  placeholder="E-mail"
+                />
               </li>
               <li class="e-mail-button">
                 <button type="submit" class="sub-button">
@@ -496,7 +501,14 @@
             <li class="modal-form-data">
               <label for="name">Name</label>
               <div class="modal-svg-border">
-                <input name="name" type="text" class="modal-input-hover" name="name" id="name" autofocus />
+                <input
+                  name="name"
+                  type="text"
+                  class="modal-input-hover"
+                  name="name"
+                  id="name"
+                  autofocus
+                />
                 <svg class="modal-svg">
                   <use href="./images/icons.svg#icon-person"></use>
                 </svg>
@@ -505,7 +517,13 @@
             <li class="modal-form-data">
               <label for="tel">Phone</label>
               <div class="modal-svg-border">
-                <input name="phone" type="tel" class="modal-input-hover" name="tel" id="tel" />
+                <input
+                  name="phone"
+                  type="tel"
+                  class="modal-input-hover"
+                  name="tel"
+                  id="tel"
+                />
                 <svg class="modal-svg">
                   <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
@@ -514,7 +532,13 @@
             <li class="modal-form-data">
               <label for="mail">Email</label>
               <div class="modal-svg-border">
-                <input name="email" type="email" class="modal-input-hover" name="mail" id="mail"/>
+                <input
+                  name="email"
+                  type="email"
+                  class="modal-input-hover"
+                  name="mail"
+                  id="mail"
+                />
                 <svg class="modal-svg">
                   <use href="./images/icons.svg#icon-email"></use>
                 </svg>
@@ -522,20 +546,28 @@
             </li>
             <li class="modal-form-data">
               <label for="comment">Comment</label>
-              <textarea class="comment" name="comment" id="comment" placeholder="Text Input"></textarea>
+              <textarea
+                class="comment"
+                name="comment"
+                id="comment"
+                placeholder="Text Input"
+              ></textarea>
             </li>
-            <div class="checkbox-form">
-              <input
-                type="checkbox"
-                name="privacy-policy"
-                value="privacy-policy"
-                id="privacy-policy"
-              />
-              <label for="privacy-policy"
-                >I accept the terms and conditions of the
-                <a href="#" class="privacy-policy-text">Privacy Policy</a></label>
-            </div>
           </ul>
+
+          <label class="checkbox-form">
+            <input
+              type="checkbox"
+              name="checkbox"
+              class="checkbox-modal-hiden"
+            />
+            <span class="checkbox-icon"></span>
+            <span class="checkbox-policy"
+              >I accept the terms and conditions of the
+              <a href="#" class="privacy-policy-text">Privacy Policy</a></span
+            >
+          </label>
+
           <div class="sub-button-container">
             <button type="submit" class="submit-button">Send</button>
           </div>
